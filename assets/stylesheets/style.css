@@ -1,0 +1,6 @@
+/* untitled63.com custom css */
+nav, main, footer {
+  margin: 50px 100px 40px 100px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
