@@ -1,7 +1,10 @@
 <nav>
-  <a href="/">{{ site.title }}</a>
-  <a href="/posts">posts</a>
-  <a href="/about">about</a>
-  <a href="/another-page">another page</a>
-  <a href="/feed.xml">feed</a>
+  <h1>{{ site.title }}</h1>
+  <ul>
+   {% for page in site.data.nav.pages %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+   {% endfor %}
+    <a href="/feed.xml">feed</a>
+  </ul>
 </nav>
+

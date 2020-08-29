@@ -1,13 +1,13 @@
 # Setup Instructions
 
 1. Clone repository to your computer.
-2. Using terminal, navigate to the `untitled63.com` directory with `cd`.
+2. Using terminal, navigate to the `perfect-jekyll` directory with `cd`.
 3. In the directory type `bundle exec jekyll serve`.
 4. Visit [http://127.0.0.1:4000](http://127.0.0.1:4000) in your browser.
 
 ## Adding Pages
 
-Just add a new `your-page-name.md` file in the `_pages` directory. At the top of the file, add this frontmatter:
+Just add a new `your-page-name.md` file in the `_pages` directory. At the top of the file, add this "frontmatter":
 
 ```
 ---
@@ -30,3 +30,16 @@ title:  "Your Post Title"
 date:   2020-05-02 14:54:38 -0500
 ---
 ```
+
+## Collections
+
+Collections allow for easily maintaining larges sets of similar data. Configure in `_config.yml` and chck out the `_collections` directory to see how these work. An example is also on the `_pages/collections.md` page.
+
+
+## Navigation
+
+Configure main navigation with `_data/nav.yml`.
+
+## CSS
+
+To work with the CSS: `cd assets/stylesheets` and run `sass --watch style.sass:style.css`.

@@ -1,12 +1,13 @@
-title: untitled63
-email: 
-description: The name comes from my tragic disposition to never name documents anything growing up. So it'd always be untitled-63.rtf or whatever.
+title: perfect-jekyll
+description: the perfect jekyll starting theme. xoxo northern information.
 baseurl: /
-url: https://untitled63.com
+url:
 permalink: pretty
 sort_by: year, month
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 include: ['_pages']
+collections_dir: collections
+collections:
+  - examples
