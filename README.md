@@ -1,9 +1,16 @@
-# Setup Instructions
+# Perfect Bootstrap Jekyll
+
+- Bootstrap JS is ready to be uncommented in javascript.html.
+- Includes FontAwesome in head.html.
+- Favicon stuff is ready to be uncommented in head.html.
+
+## Setup Instructions
 
 1. Clone repository to your computer.
 2. Using terminal, navigate to the `perfect-jekyll` directory with `cd`.
-3. In the directory type `bundle exec jekyll serve`.
+3. In the directory type `bundle exec jekyll serve --baseurl ''`.
 4. Visit [http://127.0.0.1:4000](http://127.0.0.1:4000) in your browser.
+5. To work with the CSS: `cd assets/stylesheets` and run `sass --watch style.sass:style.css`.
 
 ## Adding Pages
 
@@ -39,7 +46,3 @@ Collections allow for easily maintaining larges sets of similar data. Configure 
 ## Navigation
 
 Configure main navigation with `_data/nav.yml`.
-
-## CSS
-
-To work with the CSS: `cd assets/stylesheets` and run `sass --watch style.sass:style.css`.

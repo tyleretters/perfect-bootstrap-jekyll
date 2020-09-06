@@ -1,10 +1,12 @@
-title: perfect-jekyll
-description: the perfect jekyll starting theme. xoxo northern information.
+title: perfect bootstrap jekyll
+description: the perfect bootstrap jekyll starting theme. xoxo northern information.
 baseurl: /
 url:
 permalink: pretty
 sort_by: year, month
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 plugins:
   - jekyll-feed
 include: ['_pages']
