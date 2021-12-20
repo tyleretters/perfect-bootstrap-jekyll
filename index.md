@@ -1,6 +1,8 @@
 ---
-layout: home
+layout: index
 ---
+# Index
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus urna in tincidunt auctor. Aliquam erat volutpat. Morbi malesuada suscipit sem non vulputate. In auctor odio id leo mollis, eu viverra dolor varius. Vivamus vel viverra risus. Vestibulum in facilisis felis, sed pharetra sapien. Suspendisse laoreet purus faucibus tortor vestibulum, ut scelerisque mauris venenatis. Donec egestas, diam non accumsan aliquam, nisi nulla tristique metus, et ultrices massa dui ut ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam, risus nec iaculis pretium, mi sapien rhoncus ligula, vel mattis odio quam sit amet est. Vivamus imperdiet tristique dolor, quis vulputate orci efficitur et. Maecenas suscipit non nisi et congue. Phasellus mi lacus, posuere eget ante ac, pretium facilisis lacus. Cras vel nulla quis risus volutpat iaculis.
 
 Cras tincidunt velit ut enim scelerisque, nec aliquam lacus rhoncus. Nullam aliquam ultrices metus, ut porta metus porta rutrum. Aenean fringilla ante nunc, sit amet mollis nisl fermentum facilisis. Phasellus arcu arcu, sollicitudin aliquet lacinia non, rutrum aliquet nunc. Aenean at lectus et quam efficitur rutrum. In id eros eget felis euismod bibendum. Integer sit amet vulputate nisl, nec tempor ipsum.

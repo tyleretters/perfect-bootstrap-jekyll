@@ -1,13 +1,13 @@
-pages:
+items:
 
-- title: home
+- title: Home
   url: /
 
-- title: posts
+- title: Posts
   url: /posts
 
-- title: collections
-  url: /collections
-
-- title: about
+- title: About
   url: /about
+
+- title: Feed
+  url: /feed.xml

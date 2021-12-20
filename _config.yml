@@ -1,5 +1,4 @@
-title: perfect bootstrap jekyll
-description: the perfect bootstrap jekyll starting theme. xoxo northern information.
+# see _data/meta.yml (so you don't have to restart jekyll to see changes)
 baseurl: /perfect-bootstrap-jekyll
 url: https://tyleretters.github.io/perfect-bootstrap-jekyll
 permalink: pretty
@@ -9,7 +8,5 @@ kramdown:
   parse_block_html: true
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 include: ['_pages']
-collections_dir: collections
-collections:
-  - examples

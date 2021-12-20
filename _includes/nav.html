@@ -1,7 +1,10 @@
-<nav class="side">
-<ul>
-{% for item in site.data.nav.pages %}
-<li class="{% if item.url == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
+<nav class="container">
+  <div class="row">
+    <div class="col">
+      {% for item in site.data.nav.items %}
+      <span class="me-3{% if item.url == page.url %} active{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></span>
+      {% endfor %}
+      <hr>
+    </div>
+  </div>
 </nav>
